@@ -3,3 +3,29 @@
   margin: 0;
   padding: 0;
 }
+
+.photo-container {
+  width: 300px;
+  margin: 20px;
+  border: solid 3px black;
+
+  position: relative;
+}
+
+.picture {
+  width: 100%;
+}
+
+.caption {
+  position: absolute;
+
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+
+  background-color: lightcyan;
+  border: solid 1px darkcyan;
+  color: darkcyan;
+  padding: 5px;
+  text-align: center;
+}
