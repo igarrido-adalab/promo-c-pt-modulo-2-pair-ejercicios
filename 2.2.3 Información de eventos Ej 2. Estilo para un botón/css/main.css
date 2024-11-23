@@ -1,0 +1,55 @@
+/* Hoja de estilos de reset mínima */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente general */
+
+:root {
+  font: 16px 'Roboto', Verdana, sans-serif;
+}
+
+.header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+
+  background-color: darkcyan;
+
+  padding: 20px;
+}
+.header__title {
+  color: white;
+}
+.main {
+  padding: 2rem;
+  min-height: 100vh;
+}
+.dark {
+  background-color: #393939;
+}
+.dark :not(h1, input, select, button, textarea) {
+  color: #fff;
+}
+
+.form__btn {
+  margin: 0.25rem;
+  padding: 0.35rem 0.8rem;
+  text-align: center;
+  background-color: #14d9c4;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  vertical-align: middle;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: padding ease 0.5s, border-radius ease 0.5s, background-color ease 0.5s;
+}
