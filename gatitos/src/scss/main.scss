@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+.header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+
+  padding: 20px;
+  z-index: 1;
+}
+
 .photo-container {
   width: 300px;
   margin: 20px;
